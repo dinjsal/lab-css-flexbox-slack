@@ -8,3 +8,308 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/*llenalo*/
+body {
+   font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+.team-together a {
+    text-decoration: none;
+}
+
+@media (width >= 1440px) {
+    #why-slack {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #status-privacy {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #socials {
+        display: flex;
+        align-content: flex-start;
+    }
+
+    #top-links {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* #hero-photo {
+        max-width: 800px;
+
+    } */
+
+    header {
+        display: flex;
+        align-items: flex-start;
+        
+    }
+}
+
+@media (width >= 1024px), (width < 1440px) {
+    #menu-icon {
+        picture
+    }
+}
+
+@media  (width > 768px), (width < 1024px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* #hero-photo {
+        max-width: 1200px;
+
+    } */
+
+    
+}
+
+@media (width <= 768px) {
+    #top-links {
+        display: none;
+    }
+    #sign-try {
+        display: none;
+    }
+
+    .team-together {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #socials {
+        display: flex;
+        justify-content: space-between;
+        
+    } /*change the settings in each viewport. Also, di ko pa nilalagay sa div*/
+
+    #why-slack {
+        display: flex;
+        align-content: space-evenly; /*gotta check this if space-between, around or evenly*/
+    }
+
+    #status-privacy {
+        display: flex;
+        flex-direction: column;
+        line-height: 2.5em;
+        align-items:flex-start;
+    }
+
+    #large-small {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hero-photo {
+        max-width: 400px;
+    }
+    
+    .content-photo {
+        max-width: 400px;
+    }   
+}
+
+#top-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-setting {
+    background-image: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#teamwork {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+#free {
+    color: #ECB12F;
+    font-weight: bold;
+}
+
+#buttons {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+}
+
+#signup-button{
+    text-transform: uppercase;
+    color: #540B51;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px 25px;
+    font-weight: bold;  
+}
+
+#google-button {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-color: #4285F4;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    padding-bottom: 50px;
+    display: flex;
+    align-content: center;
+}
+
+#logo-google {
+    height: 25px;
+    width: 25px;
+    background-color: #F3EAE2;
+    padding: 10px;
+    margin: 5px;
+}
+
+body nav, header {
+    background-color: #540B51;
+}
+
+.button {
+    width: 330px;
+    height: 65px;
+}
+
+#slack-logo {
+    height:30px;
+    width: 100px;
+}   
+
+/* change its setting per viewport
+#hero-photo {
+    display: flex;
+    justify-content: center;
+    height: 350px; 
+} */
+
+#logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.capitalize {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#logos img {
+    height: 30px;
+}
+
+main:nth-child(2) {
+    display: flex;
+}
+
+.ivory-bg {
+    background-color: #F3EAE2;
+}
+
+#welcome-new {
+    background-color: #540B51;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#try-free {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px 25px;
+    background-color: white;
+    color: #540B51;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#talk-sales {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px 25px;
+    background-color: #540B51;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-color: white;
+    border-width: 2.5px;
+}
+
+#large-small {
+    text-align: center;
+}
+
+#meet-slack {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px 25px;
+    background-color: #540B51;
+    color:  white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#talk-sales2 {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px 25px;
+    background-color: white;
+    color: #540B51;
+    border-color: #540B51;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.percentage {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#large-small span {
+    color: #540B51;
+}
+
+#slack-technologies {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    color: #454245;
+}
+
+/* #status-privacy:last-child {
+    color: #2E71A6;
+} */
